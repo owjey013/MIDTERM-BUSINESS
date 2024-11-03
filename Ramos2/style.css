@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto; /* Added margin for spacing */
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1); /* Slightly stronger shadow */
+}
+
+h1, h2 {
+    color: #333;
+    margin-bottom: 10px; /* Added margin for spacing */
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus,
+select:focus {
+    border-color: #28a745; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+input[type="submit"] {
+    background: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s; /* Smooth transition for background color */
+}
+
+input[type="submit"]:hover {
+    background: #218838;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #f8f8f8;
+    color: #333; /* Added color for table header */
+}
+
+.success {
+    color: green;
+    margin-bottom: 20px;
+    padding: 10px; /* Added padding for better visibility */
+    background: #d4edda; /* Light green background */
+    border: 1px solid #c3e6cb; /* Border to match background */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.error {
+    color: red;
+    margin-bottom: 20px;
+    padding: 10px; /* Added padding for better visibility */
+    background: #f8d7da; /* Light red background */
+    border: 1px solid #f5c6cb; /* Border to match background */
+    border-radius: 5px; /* Rounded corners */
+}
